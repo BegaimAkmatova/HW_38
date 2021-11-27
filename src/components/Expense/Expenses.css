@@ -1,0 +1,30 @@
+.expenses {
+    padding: 1rem;
+    background-color: rgb(31, 31, 31);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+}
+.signature-container{
+    width: 40rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation: blink 0.5s 0s infinite;
+   
+}
+.signature{
+    color: white;
+    text-decoration: none;
+  
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
